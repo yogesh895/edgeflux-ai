@@ -1,0 +1,13 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+pyarrow>=14.0
+lightgbm>=4.1
+shap>=0.44
+python-dotenv>=1.0
+requests>=2.31
+tqdm>=4.66
+gridstatus>=0.25
+meteostat>=1.6
