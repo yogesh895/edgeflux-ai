@@ -105,6 +105,8 @@ model against the same inputs and flags drift.
 
 ## Frontend pages
 
+<img width="1439" height="668" alt="Screenshot 2026-04-19 at 10 00 00 AM" src="https://github.com/user-attachments/assets/c846b251-989f-4b7e-bfd4-fa722fb51069" />
+
 - **Map** — ERCOT map with the 12 candidate sites, ranked panel on the side,
   tier-colored markers, and aggregate Σ P50 NPV / mean P(loss).
 - **Site detail** — composite score, risk stats, 72h P10/P50/P90 forecast
