@@ -1,0 +1,23 @@
+{
+  "trained_at": "2026-04-19T06:06:28.082424",
+  "n_windows": 16,
+  "overall_mae": 3.767391170627901,
+  "overall_mae_std": 1.4548925328728215,
+  "overall_naive_mae": 12.620839893353175,
+  "overall_improvement_pct": 68.09647543623709,
+  "windows_beating_naive": 16,
+  "by_regime": {
+    "calm": {
+      "n_windows": 14,
+      "mae_mean": 3.34,
+      "naive_mae_mean": 12.03,
+      "improvement_mean": 71.01
+    },
+    "volatile": {
+      "n_windows": 2,
+      "mae_mean": 6.79,
+      "naive_mae_mean": 16.76,
+      "improvement_mean": 47.67
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "quantiles": {
+    "p10": {
+      "pinball_loss": 0.536008229368656,
+      "best_iteration": 343,
+      "num_features": 36
+    },
+    "p50": {
+      "pinball_loss": 1.2590752938736223,
+      "best_iteration": 296,
+      "num_features": 36
+    },
+    "p90": {
+      "pinball_loss": 0.6033032750275501,
+      "best_iteration": 635,
+      "num_features": 36
+    }
+  },
+  "ensemble": {
+    "p10_p90_coverage": 0.7368941641938674,
+    "mae_p50": 2.5181505877472445,
+    "naive_mae_lag24h": 11.175734421364984,
+    "improvement_vs_naive_pct": 77.46769480372386,
+    "test_rows": 4044,
+    "trained_at": "2026-04-19T06:00:04.454651"
+  },
+  "top_features": [
+    {
+      "feature": "lmp_lag_1h",
+      "importance": 666422.016294241
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 127172.7472023964
+    },
+    {
+      "feature": "lmp_lag_3h",
+      "importance": 49264.04034304619
+    },
+    {
+      "feature": "lmp_lag_24h",
+      "importance": 48172.063618183136
+    },
+    {
+      "feature": "renewable_share_proxy",
+      "importance": 31897.42269396782
+    },
+    {
+      "feature": "reserve_margin_proxy",
+      "importance": 29958.550136089325
+    },
+    {
+      "feature": "thermal_stress",
+      "importance": 18388.626410245895
+    },
+    {
+      "feature": "waha_basis",
+      "importance": 18011.03007519245
+    },
+    {
+      "feature": "gas_henry",
+      "importance": 14657.21425652504
+    },
+    {
+      "feature": "gas_waha",
+      "importance": 12047.553579092026
+    },
+    {
+      "feature": "lmp_dev_from_24h",
+      "importance": 10896.037265777588
+    },
+    {
+      "feature": "lmp_lag_168h",
+      "importance": 8782.969201803207
+    },
+    {
+      "feature": "month",
+      "importance": 7905.440745353699
+    },
+    {
+      "feature": "lmp_lag_6h",
+      "importance": 7637.249301671982
+    },
+    {
+      "feature": "lmp_roll_24h_std",
+      "importance": 7267.396271467209
+    },
+    {
+      "feature": "lmp_roll_6h_mean",
+      "importance": 7263.44108581543
+    },
+    {
+      "feature": "temperature_c",
+      "importance": 7050.525670528412
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 7001.893429517746
+    },
+    {
+      "feature": "lmp_roll_24h_mean",
+      "importance": 6576.315277338028
+    },
+    {
+      "feature": "site_id",
+      "importance": 5169.662809610367
+    }
+  ]
+}

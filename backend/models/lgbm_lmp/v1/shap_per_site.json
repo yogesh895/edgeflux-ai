@@ -1,0 +1,842 @@
+{
+  "s01": {
+    "site_id": "s01",
+    "base_value": 30.780091546858877,
+    "prediction": 29.27711170497171,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.298517472135627
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.6131826592356382
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.1418542141891257
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8459371144937029
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.4054588439286024
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 0.3708490030509232
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.3440567059107639
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.2887441056197309
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.28098679285555656
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.19961986695405143
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s02": {
+    "site_id": "s02",
+    "base_value": 30.780091546858877,
+    "prediction": 29.35096775246425,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.2887199897013306
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.6087646347161793
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.1302925647206918
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8614821737103918
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.4083794326519012
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 0.3875079042834312
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.35783157224877044
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.29271902093404395
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.2804003196747459
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.21680275918066455
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s03": {
+    "site_id": "s03",
+    "base_value": 30.780091546858877,
+    "prediction": 34.443938217452825,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 4.61889634719268
+      },
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.4831994944698703
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 2.176597700313328
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.155134321519748
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.9087836469948394
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.4636886097869839
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.38038261794057593
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.3455157854927763
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.22784878992251834
+      },
+      {
+        "feature_raw": "heat_rate",
+        "feature": "Heat rate",
+        "family": "market",
+        "contribution": -0.22130445262439205
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s04": {
+    "site_id": "s04",
+    "base_value": 30.780091546858877,
+    "prediction": 27.68778445835582,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.2644436027793287
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8615880663167043
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -0.7852564199431884
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.3207719412139731
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 0.317154255763054
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.27196116557039757
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.2380549367037262
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.21978630772744057
+      },
+      {
+        "feature_raw": "renewable_share_proxy",
+        "feature": "Renewable share",
+        "family": "grid",
+        "contribution": 0.17869898025814915
+      },
+      {
+        "feature_raw": "lmp_roll_168h_mean",
+        "feature": "LMP weekly avg",
+        "family": "market",
+        "contribution": -0.17514571804924614
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s05": {
+    "site_id": "s05",
+    "base_value": 30.780091546858877,
+    "prediction": 27.52023258595447,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.0720134694637977
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8638053811293994
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -0.7712984513458254
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.33884849178937065
+      },
+      {
+        "feature_raw": "hdh",
+        "feature": "Heating demand",
+        "family": "weather",
+        "contribution": 0.24668225030898652
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.24188869234581906
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.23783639600954926
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -0.20433809143594545
+      },
+      {
+        "feature_raw": "renewable_share_proxy",
+        "feature": "Renewable share",
+        "family": "grid",
+        "contribution": 0.19557427187623092
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.187922642100323
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s06": {
+    "site_id": "s06",
+    "base_value": 30.780091546858877,
+    "prediction": 25.993763666797996,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -1.9420755948710324
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -1.4591782213365896
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.9015629040732366
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -0.8893922095423291
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.3421713893112099
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.23450508348186938
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.2154806433755328
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.2026521246380854
+      },
+      {
+        "feature_raw": "renewable_share_proxy",
+        "feature": "Renewable share",
+        "family": "grid",
+        "contribution": 0.16147051367592324
+      },
+      {
+        "feature_raw": "lmp_roll_168h_mean",
+        "feature": "LMP weekly avg",
+        "family": "market",
+        "contribution": -0.14736819793418812
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s07": {
+    "site_id": "s07",
+    "base_value": 30.780091546858877,
+    "prediction": 25.973696491167164,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -1.8993746421287794
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -1.4972219331178216
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.0222792059834485
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8508016774441671
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.3158985309563312
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.21822150597251005
+      },
+      {
+        "feature_raw": "hdh",
+        "feature": "Heating demand",
+        "family": "weather",
+        "contribution": 0.20899965461573589
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.2083255807313005
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.18668646058717187
+      },
+      {
+        "feature_raw": "renewable_share_proxy",
+        "feature": "Renewable share",
+        "family": "grid",
+        "contribution": 0.1815970746153323
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s08": {
+    "site_id": "s08",
+    "base_value": 30.780091546858877,
+    "prediction": 27.268507209210355,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.0739806319092913
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.2292083983809263
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -1.1491108506566143
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.014327865678758
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8513753478659656
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.3941377470281706
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.3382249092457818
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.2846649611764332
+      },
+      {
+        "feature_raw": "hdh",
+        "feature": "Heating demand",
+        "family": "weather",
+        "contribution": 0.2174494537161958
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.17354851553650746
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s09": {
+    "site_id": "s09",
+    "base_value": 30.780091546858877,
+    "prediction": 27.3355991247847,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.144961425001556
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.2258614435471882
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -1.1165474969045392
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.0147502968210218
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8728720898773801
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.4085042285085271
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.3072875428800613
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.28302008859805744
+      },
+      {
+        "feature_raw": "hdh",
+        "feature": "Heating demand",
+        "family": "weather",
+        "contribution": 0.20307326207790768
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.18680080267570617
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s10": {
+    "site_id": "s10",
+    "base_value": 30.780091546858877,
+    "prediction": 27.32631758089496,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.0648441598959457
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.224597919798515
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": -1.1400275981252146
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.0184085405976593
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8508363538950395
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.39427657099592617
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.33650927131170566
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.2864809782957872
+      },
+      {
+        "feature_raw": "hdh",
+        "feature": "Heating demand",
+        "family": "weather",
+        "contribution": 0.2181934978447146
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.17313411056400863
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s11": {
+    "site_id": "s11",
+    "base_value": 30.780091546858877,
+    "prediction": 27.7280307692958,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.1864482020665377
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.8575347965072307
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -0.787154503093404
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.3218889899730402
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 0.30144870482085284
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.27118599364042173
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.243172327638804
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.2200042169593858
+      },
+      {
+        "feature_raw": "renewable_share_proxy",
+        "feature": "Renewable share",
+        "family": "grid",
+        "contribution": 0.1775263116631776
+      },
+      {
+        "feature_raw": "lmp_roll_168h_mean",
+        "feature": "LMP weekly avg",
+        "family": "market",
+        "contribution": -0.17288433946253107
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  },
+  "s12": {
+    "site_id": "s12",
+    "base_value": 30.780091546858877,
+    "prediction": 29.327680091908313,
+    "forecast_time": "2025-12-31T05:00:00+00:00",
+    "features": [
+      {
+        "feature_raw": "hour_of_day",
+        "feature": "Hour of day",
+        "family": "calendar",
+        "contribution": -2.2845304868281886
+      },
+      {
+        "feature_raw": "lmp_lag_24h",
+        "feature": "LMP yesterday",
+        "family": "market",
+        "contribution": 1.626734368662204
+      },
+      {
+        "feature_raw": "lmp_dev_from_24h",
+        "feature": "LMP vs 24h avg",
+        "family": "market",
+        "contribution": -1.1349756105514945
+      },
+      {
+        "feature_raw": "lmp_lag_3h",
+        "feature": "LMP 3h ago",
+        "family": "market",
+        "contribution": -0.859483816425178
+      },
+      {
+        "feature_raw": "lmp_lag_168h",
+        "feature": "LMP last week",
+        "family": "market",
+        "contribution": -0.4061753272125332
+      },
+      {
+        "feature_raw": "lmp_lag_1h",
+        "feature": "LMP 1h ago",
+        "family": "market",
+        "contribution": 0.38950921341787625
+      },
+      {
+        "feature_raw": "reserve_margin_proxy",
+        "feature": "Reserve margin",
+        "family": "grid",
+        "contribution": 0.3507069260564262
+      },
+      {
+        "feature_raw": "lmp_roll_24h_mean",
+        "feature": "LMP 24h avg",
+        "family": "market",
+        "contribution": 0.2864918482423155
+      },
+      {
+        "feature_raw": "gas_waha",
+        "feature": "Waha gas",
+        "family": "market",
+        "contribution": 0.28164569097238823
+      },
+      {
+        "feature_raw": "gas_henry",
+        "feature": "Henry Hub gas",
+        "family": "market",
+        "contribution": 0.216980906833258
+      }
+    ],
+    "explainer": "tree_shap",
+    "model_version": "lgbm_v1"
+  }
+}
