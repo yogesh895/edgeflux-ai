@@ -1,7 +1,10 @@
-<img width="772" height="438" alt="Screenshot 2026-04-19 at 9 55 43 AM" src="https://github.com/user-attachments/assets/a4213bcf-990f-46a8-b010-56e641896368" />
+
+
 # EdgeFlux AI
 
 **Behind-the-meter gas generation siting and dispatch for ERCOT data centers.**
+
+<img width="772" height="438" alt="Screenshot 2026-04-19 at 9 56 35 AM" src="https://github.com/user-attachments/assets/ce73810f-293b-4ead-88bf-2b72538fa914" />
 
 EdgeFlux AI ingests ERCOT LMP, Waha gas prices, NOAA weather, and grid-state
 signals, trains quantile LightGBM models to forecast 72-hour prices at 12
@@ -94,8 +97,8 @@ model against the same inputs and flags drift.
 - **Auditability** — every forecast request is hashed and persisted; the
   replay endpoint re-runs the exact same feature vector and reports whether
   the new output is byte-identical to the logged one.
-<img width="772" height="438" alt="Screenshot 2026-04-19 at 9 56 48 AM" src="https://github.com/user-attachments/assets/dddee00c-ceaa-42bd-bdb5-cdd7c49d574c" />
-<img width="772" height="438" alt="Screenshot 2026-04-19 at 9 56 35 AM" src="https://github.com/user-attachments/assets/ce73810f-293b-4ead-88bf-2b72538fa914" />
+
+
 <img width="772" height="438" alt="Screenshot 2026-04-19 at 9 56 05 AM" src="https://github.com/user-attachments/assets/db0e784b-0119-4102-a463-d8b83a79b2d2" />
 
 ---
